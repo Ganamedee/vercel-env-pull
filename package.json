@@ -1,0 +1,34 @@
+{
+  "name": "vercel-env-pull",
+  "version": "1.0.0",
+  "description": "Export 100% of Vercel environment variables (including write-only Sensitive secrets) to a local .env file.",
+  "main": "index.js",
+  "bin": {
+    "vercel-env-pull": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ganamedee/vercel-env-pull.git"
+  },
+  "keywords": [
+    "vercel",
+    "env",
+    "environment-variables",
+    "dotenv",
+    "secrets",
+    "cli",
+    "workaround"
+  ],
+  "author": "Daniel Tolenaar <tolenaardaniel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ganamedee/vercel-env-pull/issues"
+  },
+  "homepage": "https://github.com/Ganamedee/vercel-env-pull#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
